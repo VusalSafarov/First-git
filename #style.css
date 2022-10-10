@@ -1,0 +1,71 @@
+* {padding: 0px; margin: 0px;}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+@media screen and (min-width:1440px) {
+    
+
+h1 {font-family:'Roboto Slab';}
+body {font-family:'Roboto';}
+h1 {width: 365px; height: 93px; font-size: 55px; margin-bottom: 18px; font-family: Roboto ;}
+.container, .container-two {display: flex; margin-left:124px; margin-top: 91px;}
+.container .text {width: 662px; height: 374px; font-size: 24px; font-weight: 400px;
+    line-height: 36px; margin-right: 190px;}
+
+div .elipse {width: 366px; height: 59px; color: #EFEFEF; margin-top: -30px; margin-left: -25px;}
+div .cameraman {width: 315px; height: 315px; margin-top: 42px; position: relative;}
+div .filmmaker {width: 232px; height: 203px; margin-right: 132px; margin-top: 94px; position:relative ;}
+div .elipse-two {width: 189px; height: 32px; margin-top: -30px; margin-left: 30px;} 
+div .about{display: flex; }
+.about div {width: 150px; height: 39px; font-size: 25px; margin-top: 250px; }
+.about div p {font-size: 18px; margin-top: 1px;}
+
+
+.work-time {margin-left: 95px; margin-right: 93px;}
+}
+
+@media (min-width: 830px) and ( max-width: 1439px)
+{ 
+    h1 {font-family:'Roboto Slab';}
+    body {font-family:'Roboto';}
+    h1 {width: 211.4px; height: 53.86px; font-size:32px; margin-bottom: 10.42px; font-family: Roboto ;}
+    .container, .container-two {display: flex; margin-left:72px; margin-top: 56px;}
+    .container .text {width: 383.41px; height: 216.61px; font-size: 14px; font-weight: 400px;
+        line-height: 21px; margin-right: 110.04px;}
+    div .elipse {width: 211.98px; height: 34.17px; color: #EFEFEF; margin-top: -30px; margin-left: -15px;}
+    div .cameraman {width: 181.86px; height: 182.44px; margin-top: 24.32px; position: relative; }
+    div .filmmaker {display: none; width: 189px; height: 32px; margin-right: 132px; margin-top: 94px;}
+    div .about{display: flex; margin-top: 70.1px; }
+    .about div {width: 86.88x; height: 22.59px; font-size: 15px; line-height: 19px; }
+    .about div p {margin-top: 0.36px; font-size: 11px; line-height: 14px; font-weight: 400;}
+    
+    
+    .work-time {margin-left: 55.02px; margin-right: 53.86px;}
+}
+
+@media (min-width: 375px) and (max-width:829px) {
+    h1 {font-family:'Roboto Slab';}
+    body {font-family:'Roboto';}
+    h1 {width: 170.08px; height: 43.34px; font-size:26px; margin-bottom: 8.39px; font-family: Roboto ;}
+    .container, .container-two {display: flex; margin-left:35px; margin-top: 56px;}
+    .container .text {width: 308.07px; height: 174.27px; font-size: 12px; font-weight: 400px;
+        line-height: 18px;}
+    .container {display: block;}
+    div .elipse {width: 170.55px; height: 27.49px; color: #EFEFEF; margin-top: -30px; margin-left: 25px;}
+    div .cameraman {width: 146.32px; height: 146.78px; margin-top: 56px; margin-left: 40.12px; position: relative;}
+    div .filmmaker {display: none; width: 189px; height: 32px; margin-right: 132px; margin-top: 94px;}
+    div .about{display: inline-flex; flex-wrap: wrap;  margin-top: 59.22px; }
+    .about div {width: 69.9x; height: 18.17px; font-size: 12px; line-height: 15.6px; font-weight: 700; }
+    .about div p { font-size: 11px; line-height: 10px; font-weight: 400; line-height: 13px;}
+    .week {margin-top: 34px; margin-right: 5%;}
+       .work-time {margin-left: 49.27px; margin-top: 0.29px;}
+ 
+    
+}
+    
+
+
+
+
+
